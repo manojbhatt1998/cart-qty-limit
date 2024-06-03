@@ -7,7 +7,7 @@ query RunInput {
         ... on ProductVariant {
           product {
             metafield(namespace: "quantity_limits", key: "limit") {
-              value
+              value    
             }
           }
         }
