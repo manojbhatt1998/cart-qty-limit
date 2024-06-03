@@ -18,7 +18,7 @@ export function run(input) {
       }
     })
     .map(() => ({
-      localizedMessage: "Not possible to order more than one of each test",
+      localizedMessage: "Not possible to order more than one of each",
       target: "cart",
     }));
 
